@@ -12,9 +12,11 @@ class Stack {
     Stack (int size){
 
         arr = new int [size];
+        top = -1;
     }
     ~ Stack (){
         delete[] arr;
+        
     }
 };
 
