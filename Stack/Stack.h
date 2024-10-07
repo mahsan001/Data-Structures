@@ -18,6 +18,11 @@ class Stack {
         delete[] arr;
         
     }
+
+    int pop ();
+    void push(int);
+    int top();
+    int size();
 };
 
 #endif // End of header guard
