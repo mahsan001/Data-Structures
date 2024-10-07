@@ -21,8 +21,10 @@ class Stack {
 
     int pop ();
     void push(int);
-    int top();
+    int Top();
     int size();
+    bool isEmpty();
+    bool isFull();
 };
 
 #endif // End of header guard
