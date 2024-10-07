@@ -21,8 +21,8 @@ int Stack :: pop(){
 
     if (this->isEmpty()){
 
-        cout << "Stack is empty" << endl;
-        return;
+        cerr << "Error: Stack is empty" << endl;
+        return -1;
 
     }
     else {
@@ -36,10 +36,9 @@ int Stack :: pop(){
 int Stack :: Top(){
 
     if(this->isEmpty()){
-        cout << "Stack is empty" << endl;
-        return;
-
-    }
+        cerr << "Error: Stack is empty" << endl;
+        return -1;
+        }
     else{
         return arr[top];
     }
